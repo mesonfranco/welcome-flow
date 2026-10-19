@@ -1,5 +1,5 @@
 {
-  "id": "202608NewFCV1_control",
+  "id": "100526_pt",
   "start": [
     {
       "flowId": "default"
@@ -11,14 +11,14 @@
       "type": 100,
       "showClose": true,
       "content": {
-        "title": "Make your first animation!",
-        "description": "20+ Million people made this, too!",
+        "title": "Faça sua primeira animação!",
+        "description": "Mais de 20 milhões de pessoas também já fizeram!",
         "artwork": {
           "url": "drawable://tutorial_artwork_medal"
         },
         "videoArtwork": "drawable://tutorial_video_artwork",
-        "video": "https://v.flipaclip.com/NERDB20i9kBKik2L1v9yH/master.m3u8",
-        "secondaryActionTitle": "Discover more",
+        "video": "https://v.flipaclip.com/fd7fbe81-88e2-491e-965b-1d65d3bb023c/master.m3u8",
+        "secondaryActionTitle": "Explorar mais",
         "secondaryAction": "flipaclip://discover"
       }
     },
@@ -31,18 +31,23 @@
       }
     },
     {
+      "stepId": "push_permission_request",
+      "type": 103,
+      "showClose": false
+    },
+    {
       "stepId": "survey",
       "type": 101,
       "content": {
-        "id": "042424_exp_survey",
+        "id": "061124_pt",
         "showClose": false,
         "hideProgress": true,
         "startFormId": "intent_screen",
         "forms": [
           {
             "id": "intent_screen",
-            "title": "What brings you to FlipaClip?",
-            "description": "Pick one.",
+            "title": "O que traz você ao FlipaClip?",
+            "description": "Escolha um.",
             "type": 0,
             "hideSkip": false,
             "action": {
@@ -58,22 +63,22 @@
               "options": [
                 {
                   "id": "intent_learn",
-                  "title": "I want to learn how to animate",
+                  "title": "Quero aprender como animar",
                   "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/MoZcySgktDwSIUO.png"
                 },
                 {
                   "id": "intent_post",
-                  "title": "I want to post on social media",
+                  "title": "Quero postar nas redes sociais",
                   "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/JJNqvDu33f2zj6s.png"
                 },
                 {
                   "id": "intent_seeking",
-                  "title": "Seeking a mobile tool for school or work",
+                  "title": "Procuro uma ferramenta para dispositivos móveis para escola ou trabalho.",
                   "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/BKaNfZCcvgqZzxY.png"
                 },
                 {
                   "id": "intent_content",
-                  "title": "I want to check out cool animated content",
+                  "title": "Quero conferir um conteúdo animado legal",
                   "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/4XXkhNmIYp78fVW.png"
                 }
               ]
@@ -81,11 +86,6 @@
           }
         ]
       }
-    },
-    {
-      "stepId": "push_permission_request",
-      "type": 103,
-      "showClose": false
     }
   ],
   "flows": {

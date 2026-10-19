@@ -1,5 +1,5 @@
 {
-  "id": "070326_ios_july_sale",
+  "id": "100526_zh_cn",
   "start": [
     {
       "flowId": "default"
@@ -11,14 +11,14 @@
       "type": 100,
       "showClose": true,
       "content": {
-        "title": "¡Haz tu primera animación!",
-        "description": "¡Más de 20 Millones de personas lo hicieron también!",
+        "title": "制作你的第一部动画！",
+        "description": "超过 2000 万人已经做了自己的动画！",
         "artwork": {
           "url": "drawable://tutorial_artwork_medal"
         },
         "videoArtwork": "drawable://tutorial_video_artwork",
-        "video": "https://v.flipaclip.com/q7U6SiWRAv7p1ppZHd8g1/master.m3u8",
-        "secondaryActionTitle": "Descubre más",
+        "video": "https://v.flipaclip.com/c1b3ddb0-36cd-473b-a9a8-1ea4affcdbd6/master.m3u8",
+        "secondaryActionTitle": "了解更多",
         "secondaryAction": "flipaclip://discover"
       }
     },
@@ -27,7 +27,7 @@
       "type": 102,
       "showClose": true,
       "content": {
-        "placementId": "260703_july_sale"
+        "placementId": "welcome_flow_v2"
       }
     },
     {
@@ -39,21 +39,21 @@
       "stepId": "survey",
       "type": 101,
       "content": {
-        "id": "061124_es",
+        "id": "061124_zh_cn",
         "showClose": false,
         "hideProgress": true,
         "startFormId": "intent_screen",
         "forms": [
           {
             "id": "intent_screen",
-            "title": "Qué te trae a FlipaClip?",
-            "description": "Elegí una opción.",
+            "title": "您为什么使用 FlipaClip？",
+            "description": "选择一个",
             "type": 0,
             "hideSkip": false,
             "action": {
               "nextAction": [
                 {
-                  "formId": "next"
+                  "formId": "end"
                 }
               ]
             },
@@ -63,22 +63,22 @@
               "options": [
                 {
                   "id": "intent_learn",
-                  "title": "Quiero aprender a animar",
+                  "title": "我想学习如何制作动画。",
                   "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/MoZcySgktDwSIUO.png"
                 },
                 {
                   "id": "intent_post",
-                  "title": "Quiero postear en redes sociales",
+                  "title": "我想在社交媒体上发帖子",
                   "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/JJNqvDu33f2zj6s.png"
                 },
                 {
                   "id": "intent_seeking",
-                  "title": "Busco una app para la escuela o el trabajo",
+                  "title": "找一个在学校或在工作时使用的移动工具。",
                   "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/BKaNfZCcvgqZzxY.png"
                 },
                 {
                   "id": "intent_content",
-                  "title": "Quiero mirar videos de animaciones",
+                  "title": "我想观看酷炫的动画内容",
                   "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/4XXkhNmIYp78fVW.png"
                 }
               ]

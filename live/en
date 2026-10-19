@@ -1,5 +1,5 @@
 {
-  "id": "070326_android_july_sale",
+  "id": "100526_en",
   "start": [
     {
       "flowId": "default"
@@ -11,14 +11,14 @@
       "type": 100,
       "showClose": true,
       "content": {
-        "title": "はじめてのアニメーション作品を作ろう！",
-        "description": "2,000万人以上がもう作っています！",
+        "title": "Make your first animation!",
+        "description": "20+ Million people made this, too!",
         "artwork": {
           "url": "drawable://tutorial_artwork_medal"
         },
         "videoArtwork": "drawable://tutorial_video_artwork",
-        "video": "https://v.flipaclip.com/fv95ErFxk9B9FF5lvqypX/master.m3u8",
-        "secondaryActionTitle": "詳しく見る",
+        "video": "http://v.flipaclip.com/b289d398-b260-4f48-b0f0-769b67d780aa/master.m3u8",
+        "secondaryActionTitle": "Discover more",
         "secondaryAction": "flipaclip://discover"
       }
     },
@@ -27,22 +27,22 @@
       "type": 102,
       "showClose": true,
       "content": {
-        "placementId": "260703_july_sale"
+        "placementId": "welcome_flow_v2"
       }
     },
     {
       "stepId": "survey",
       "type": 101,
       "content": {
-        "id": "061124_jp",
+        "id": "042424_exp_survey",
         "showClose": false,
         "hideProgress": true,
         "startFormId": "intent_screen",
         "forms": [
           {
             "id": "intent_screen",
-            "title": "FlipaClipを利用する理由は？",
-            "description": "1つ選んでください",
+            "title": "What brings you to FlipaClip?",
+            "description": "Pick one.",
             "type": 0,
             "hideSkip": false,
             "action": {
@@ -58,22 +58,22 @@
               "options": [
                 {
                   "id": "intent_learn",
-                  "title": "アニメーションの作り方を学びたい ",
+                  "title": "I want to learn how to animate",
                   "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/MoZcySgktDwSIUO.png"
                 },
                 {
                   "id": "intent_post",
-                  "title": "ソーシャルメディアに投稿したい",
+                  "title": "I want to post on social media",
                   "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/JJNqvDu33f2zj6s.png"
                 },
                 {
                   "id": "intent_seeking",
-                  "title": "学校や仕事で使うモバイルツールを探している",
+                  "title": "Seeking a mobile tool for school or work",
                   "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/BKaNfZCcvgqZzxY.png"
                 },
                 {
                   "id": "intent_content",
-                  "title": "クールなアニメコンテンツをチェックしたい",
+                  "title": "I want to check out cool animated content",
                   "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/4XXkhNmIYp78fVW.png"
                 }
               ]
@@ -81,10 +81,26 @@
           }
         ]
       }
+    },
+    {
+      "stepId": "push_permission_request",
+      "type": 103,
+      "showClose": false
     }
   ],
   "flows": {
     "default": [
+      {
+        "stepId": "push_permission_request",
+        "proceed": [
+          {
+            "stepId": "paywall"
+          }
+        ],
+        "dismiss": {
+          "stepId": "paywall"
+        }
+      },
       {
         "stepId": "paywall",
         "proceed": [

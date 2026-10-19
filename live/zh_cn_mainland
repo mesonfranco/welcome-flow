@@ -1,5 +1,5 @@
 {
-  "id": "202608NewFCV1_variant_a",
+  "id": "100526_zh_cn_mainland",
   "start": [
     {
       "flowId": "default"
@@ -11,14 +11,14 @@
       "type": 100,
       "showClose": true,
       "content": {
-        "title": "Make your first animation!",
-        "description": "20+ Million people made this, too!",
+        "title": "制作你的第一部动画！",
+        "description": "超过 2000 万人已经做了自己的动画！",
         "artwork": {
           "url": "drawable://tutorial_artwork_medal"
         },
         "videoArtwork": "drawable://tutorial_video_artwork",
-        "video": "https://v.flipaclip.com/995af1f2-6679-4715-8204-30d5718f1698/master.m3u8",
-        "secondaryActionTitle": "Discover more",
+        "video": "https://v.flipaclip.com/c1b3ddb0-36cd-473b-a9a8-1ea4affcdbd6/master.m3u8",
+        "secondaryActionTitle": "了解更多",
         "secondaryAction": "flipaclip://discover"
       }
     },
@@ -31,18 +31,23 @@
       }
     },
     {
+      "stepId": "push_permission_request",
+      "type": 103,
+      "showClose": false
+    },
+    {
       "stepId": "survey",
       "type": 101,
       "content": {
-        "id": "042424_exp_survey",
+        "id": "061124_zh_cn",
         "showClose": false,
         "hideProgress": true,
         "startFormId": "intent_screen",
         "forms": [
           {
             "id": "intent_screen",
-            "title": "What brings you to FlipaClip?",
-            "description": "Pick one.",
+            "title": "您为什么使用 FlipaClip？",
+            "description": "选择一个",
             "type": 0,
             "hideSkip": false,
             "action": {
@@ -58,22 +63,22 @@
               "options": [
                 {
                   "id": "intent_learn",
-                  "title": "I want to learn how to animate",
+                  "title": "我想学习如何制作动画。",
                   "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/MoZcySgktDwSIUO.png"
                 },
                 {
                   "id": "intent_post",
-                  "title": "I want to post on social media",
+                  "title": "我想在社交媒体上发帖子",
                   "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/JJNqvDu33f2zj6s.png"
                 },
                 {
                   "id": "intent_seeking",
-                  "title": "Seeking a mobile tool for school or work",
+                  "title": "找一个在学校或在工作时使用的移动工具。",
                   "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/BKaNfZCcvgqZzxY.png"
                 },
                 {
                   "id": "intent_content",
-                  "title": "I want to check out cool animated content",
+                  "title": "我想观看酷炫的动画内容",
                   "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/4XXkhNmIYp78fVW.png"
                 }
               ]
@@ -81,11 +86,6 @@
           }
         ]
       }
-    },
-    {
-      "stepId": "push_permission_request",
-      "type": 103,
-      "showClose": false
     }
   ],
   "flows": {

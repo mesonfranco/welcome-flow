@@ -1,5 +1,5 @@
 {
-  "id": "070326_android_july_sale",
+  "id": "100526_ko",
   "start": [
     {
       "flowId": "default"
@@ -11,14 +11,14 @@
       "type": 100,
       "showClose": true,
       "content": {
-        "title": "¡Haz tu primera animación!",
-        "description": "¡Más de 20 Millones de personas lo hicieron también!",
+        "title": "첫 번째 애니메이션을 만들어보세요!",
+        "description": "2천만 명이 넘는 사람들도 이 작품을 만들었습니다!",
         "artwork": {
           "url": "drawable://tutorial_artwork_medal"
         },
         "videoArtwork": "drawable://tutorial_video_artwork",
-        "video": "https://v.flipaclip.com/q7U6SiWRAv7p1ppZHd8g1/master.m3u8",
-        "secondaryActionTitle": "Descubre más",
+        "video": "https://v.flipaclip.com/beea926c-0051-4f25-9a01-8abd51d5a622/master.m3u8",
+        "secondaryActionTitle": "더 둘러보기",
         "secondaryAction": "flipaclip://discover"
       }
     },
@@ -27,28 +27,33 @@
       "type": 102,
       "showClose": true,
       "content": {
-        "placementId": "260703_july_sale"
+        "placementId": "welcome_flow_v2"
       }
+    },
+    {
+      "stepId": "push_permission_request",
+      "type": 103,
+      "showClose": false
     },
     {
       "stepId": "survey",
       "type": 101,
       "content": {
-        "id": "061124_es",
+        "id": "061124_ko",
         "showClose": false,
         "hideProgress": true,
         "startFormId": "intent_screen",
         "forms": [
           {
             "id": "intent_screen",
-            "title": "Qué te trae a FlipaClip?",
-            "description": "Elegí una opción.",
+            "title": "FlipaClip에 어떤 이유로 오셨나요?",
+            "description": "하나를 선택하세요",
             "type": 0,
             "hideSkip": false,
             "action": {
               "nextAction": [
                 {
-                  "formId": "next"
+                  "formId": "end"
                 }
               ]
             },
@@ -58,22 +63,22 @@
               "options": [
                 {
                   "id": "intent_learn",
-                  "title": "Quiero aprender a animar",
+                  "title": "에니메이션을 배우고 싶어요",
                   "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/MoZcySgktDwSIUO.png"
                 },
                 {
                   "id": "intent_post",
-                  "title": "Quiero postear en redes sociales",
+                  "title": "소셜 미디어에 게시하고 싶어요",
                   "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/JJNqvDu33f2zj6s.png"
                 },
                 {
                   "id": "intent_seeking",
-                  "title": "Busco una app para la escuela o el trabajo",
+                  "title": "학교나 직장에서 사용할 모바일 도구를 찾고 있어요",
                   "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/BKaNfZCcvgqZzxY.png"
                 },
                 {
                   "id": "intent_content",
-                  "title": "Quiero mirar videos de animaciones",
+                  "title": "멋진 애니메이션 콘텐츠를 보고싶어요",
                   "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/4XXkhNmIYp78fVW.png"
                 }
               ]
@@ -85,6 +90,17 @@
   ],
   "flows": {
     "default": [
+      {
+        "stepId": "push_permission_request",
+        "proceed": [
+          {
+            "stepId": "paywall"
+          }
+        ],
+        "dismiss": {
+          "stepId": "paywall"
+        }
+      },
       {
         "stepId": "paywall",
         "proceed": [
