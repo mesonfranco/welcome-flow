@@ -1,0 +1,13 @@
+{
+  "id": "wf_empty",
+  "start": [
+    {
+      "flowId": "default"
+    }
+  ],
+  "flows": {
+    "default": [
+
+    ]
+  }
+}
