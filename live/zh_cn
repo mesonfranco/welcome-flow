@@ -1,5 +1,5 @@
 {
-  "id": "100526_zh_cn",
+  "id": "102126_zh_cn",
   "start": [
     {
       "flowId": "default"
@@ -7,7 +7,7 @@
   ],
   "steps": [
     {
-      "stepId": "tutorial",
+      "stepId": "path_selection",
       "type": 100,
       "showClose": true,
       "content": {
@@ -116,15 +116,15 @@
         "stepId": "survey",
         "proceed": [
           {
-            "stepId": "tutorial"
+            "stepId": "path_selection"
           }
         ],
         "dismiss": {
-          "stepId": "tutorial"
+          "stepId": "path_selection"
         }
       },
       {
-        "stepId": "tutorial",
+        "stepId": "path_selection",
         "proceed": [
           {
             "stepId": "finished"
