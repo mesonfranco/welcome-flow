@@ -1,5 +1,5 @@
 {
-  "id": "102126_ko",
+  "id": "102826_ko",
   "start": [
     {
       "flowId": "default"
@@ -52,6 +52,11 @@
             "hideSkip": false,
             "action": {
               "nextAction": [
+                {
+                  "formId": "end"
+                }
+              ],
+              "skipAction": [
                 {
                   "formId": "end"
                 }
@@ -124,7 +129,7 @@
         }
       },
       {
-        "stepId": "tutorial",
+        "stepId": "path_selection",
         "proceed": [
           {
             "stepId": "finished"

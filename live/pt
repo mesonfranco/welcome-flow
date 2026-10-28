@@ -1,5 +1,5 @@
 {
-  "id": "102126_pt",
+  "id": "102826_pt",
   "start": [
     {
       "flowId": "default"
@@ -52,6 +52,11 @@
             "hideSkip": false,
             "action": {
               "nextAction": [
+                {
+                  "formId": "end"
+                }
+              ],
+              "skipAction": [
                 {
                   "formId": "end"
                 }

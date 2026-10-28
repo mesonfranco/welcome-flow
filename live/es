@@ -1,5 +1,5 @@
 {
-  "id": "102126_es",
+  "id": "102826_es",
   "start": [
     {
       "flowId": "default"
@@ -48,7 +48,12 @@
             "action": {
               "nextAction": [
                 {
-                  "formId": "next"
+                  "formId": "end"
+                }
+              ],
+              "skipAction": [
+                {
+                  "formId": "end"
                 }
               ]
             },
