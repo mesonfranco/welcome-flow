@@ -1,0 +1,775 @@
+{
+  "id": "102826_en",
+  "start": [
+    {
+      "flowId": "default"
+    }
+  ],
+  "steps": [
+    {
+      "stepId": "path_selection",
+      "type": 100,
+      "showClose": true,
+      "content": {
+        "title": "Make your first animation!",
+        "description": "20+ Million people made this, too!",
+        "artwork": {
+          "url": "drawable://tutorial_artwork_medal"
+        },
+        "videoArtwork": "drawable://tutorial_video_artwork",
+        "video": "http://v.flipaclip.com/b289d398-b260-4f48-b0f0-769b67d780aa/master.m3u8",
+        "secondaryActionTitle": "Discover more",
+        "secondaryAction": "flipaclip://discover",
+        "secondaryActionId": "discover_screen"
+      }
+    },
+    {
+      "stepId": "paywall",
+      "type": 102,
+      "showClose": true,
+      "content": {
+        "placementId": "welcome_flow_v2"
+      }
+    },
+    {
+      "stepId": "survey",
+      "type": 101,
+      "content": {
+        "id": "042424_exp_survey",
+        "showClose": false,
+        "hideProgress": false,
+        "startFormId": "1",
+        "forms": [
+          {
+            "id": "1",
+            "title": "What brings you to FlipaClip?",
+            "description": "Pick one.",
+            "type": 0,
+            "hideSkip": false,
+            "action": {
+              "nextAction": [
+                {
+                  "formId": "2"
+                }
+              ],
+              "skipAction": [
+                {
+                  "formId": "end"
+                }
+              ]
+            },
+            "content": {
+              "style": 0,
+              "singleSelection": true,
+              "options": [
+                {
+                  "id": "intent_learn",
+                  "title": "I want to learn how to animate",
+                  "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/MoZcySgktDwSIUO.png"
+                },
+                {
+                  "id": "intent_post",
+                  "title": "I want to post on social media",
+                  "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/JJNqvDu33f2zj6s.png"
+                },
+                {
+                  "id": "intent_seeking",
+                  "title": "Seeking a mobile tool for school or work",
+                  "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/BKaNfZCcvgqZzxY.png"
+                },
+                {
+                  "id": "intent_content",
+                  "title": "I want to check out cool animated content",
+                  "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/4XXkhNmIYp78fVW.png"
+                }
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "title": "What brings you to FlipaClip?",
+            "description": "Pick one.",
+            "type": 0,
+            "hideSkip": false,
+            "action": {
+              "nextAction": [
+                {
+                  "formId": "3"
+                }
+              ],
+              "skipAction": [
+                {
+                  "formId": "end"
+                }
+              ]
+            },
+            "content": {
+              "style": 0,
+              "singleSelection": true,
+              "options": [
+                {
+                  "id": "intent_learn",
+                  "title": "I want to learn how to animate",
+                  "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/MoZcySgktDwSIUO.png"
+                },
+                {
+                  "id": "intent_post",
+                  "title": "I want to post on social media",
+                  "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/JJNqvDu33f2zj6s.png"
+                },
+                {
+                  "id": "intent_seeking",
+                  "title": "Seeking a mobile tool for school or work",
+                  "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/BKaNfZCcvgqZzxY.png"
+                },
+                {
+                  "id": "intent_content",
+                  "title": "I want to check out cool animated content",
+                  "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/4XXkhNmIYp78fVW.png"
+                }
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "title": "What brings you to FlipaClip?",
+            "description": "Pick one.",
+            "type": 0,
+            "hideSkip": false,
+            "action": {
+              "nextAction": [
+                {
+                  "formId": "4"
+                }
+              ],
+              "skipAction": [
+                {
+                  "formId": "end"
+                }
+              ]
+            },
+            "content": {
+              "style": 0,
+              "singleSelection": true,
+              "options": [
+                {
+                  "id": "intent_learn",
+                  "title": "I want to learn how to animate",
+                  "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/MoZcySgktDwSIUO.png"
+                },
+                {
+                  "id": "intent_post",
+                  "title": "I want to post on social media",
+                  "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/JJNqvDu33f2zj6s.png"
+                },
+                {
+                  "id": "intent_seeking",
+                  "title": "Seeking a mobile tool for school or work",
+                  "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/BKaNfZCcvgqZzxY.png"
+                },
+                {
+                  "id": "intent_content",
+                  "title": "I want to check out cool animated content",
+                  "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/4XXkhNmIYp78fVW.png"
+                }
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "title": "What brings you to FlipaClip?",
+            "description": "Pick one.",
+            "type": 0,
+            "hideSkip": false,
+            "action": {
+              "nextAction": [
+                {
+                  "formId": "5"
+                }
+              ],
+              "skipAction": [
+                {
+                  "formId": "end"
+                }
+              ]
+            },
+            "content": {
+              "style": 0,
+              "singleSelection": true,
+              "options": [
+                {
+                  "id": "intent_learn",
+                  "title": "I want to learn how to animate",
+                  "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/MoZcySgktDwSIUO.png"
+                },
+                {
+                  "id": "intent_post",
+                  "title": "I want to post on social media",
+                  "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/JJNqvDu33f2zj6s.png"
+                },
+                {
+                  "id": "intent_seeking",
+                  "title": "Seeking a mobile tool for school or work",
+                  "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/BKaNfZCcvgqZzxY.png"
+                },
+                {
+                  "id": "intent_content",
+                  "title": "I want to check out cool animated content",
+                  "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/4XXkhNmIYp78fVW.png"
+                }
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "title": "What brings you to FlipaClip?",
+            "description": "Pick one.",
+            "type": 0,
+            "hideSkip": false,
+            "action": {
+              "nextAction": [
+                {
+                  "formId": "6"
+                }
+              ],
+              "skipAction": [
+                {
+                  "formId": "end"
+                }
+              ]
+            },
+            "content": {
+              "style": 0,
+              "singleSelection": true,
+              "options": [
+                {
+                  "id": "intent_learn",
+                  "title": "I want to learn how to animate",
+                  "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/MoZcySgktDwSIUO.png"
+                },
+                {
+                  "id": "intent_post",
+                  "title": "I want to post on social media",
+                  "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/JJNqvDu33f2zj6s.png"
+                },
+                {
+                  "id": "intent_seeking",
+                  "title": "Seeking a mobile tool for school or work",
+                  "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/BKaNfZCcvgqZzxY.png"
+                },
+                {
+                  "id": "intent_content",
+                  "title": "I want to check out cool animated content",
+                  "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/4XXkhNmIYp78fVW.png"
+                }
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "title": "What brings you to FlipaClip?",
+            "description": "Pick one.",
+            "type": 0,
+            "hideSkip": false,
+            "action": {
+              "nextAction": [
+                {
+                  "formId": "7"
+                }
+              ],
+              "skipAction": [
+                {
+                  "formId": "end"
+                }
+              ]
+            },
+            "content": {
+              "style": 0,
+              "singleSelection": true,
+              "options": [
+                {
+                  "id": "intent_learn",
+                  "title": "I want to learn how to animate",
+                  "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/MoZcySgktDwSIUO.png"
+                },
+                {
+                  "id": "intent_post",
+                  "title": "I want to post on social media",
+                  "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/JJNqvDu33f2zj6s.png"
+                },
+                {
+                  "id": "intent_seeking",
+                  "title": "Seeking a mobile tool for school or work",
+                  "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/BKaNfZCcvgqZzxY.png"
+                },
+                {
+                  "id": "intent_content",
+                  "title": "I want to check out cool animated content",
+                  "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/4XXkhNmIYp78fVW.png"
+                }
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "title": "What brings you to FlipaClip?",
+            "description": "Pick one.",
+            "type": 0,
+            "hideSkip": false,
+            "action": {
+              "nextAction": [
+                {
+                  "formId": "8"
+                }
+              ],
+              "skipAction": [
+                {
+                  "formId": "end"
+                }
+              ]
+            },
+            "content": {
+              "style": 0,
+              "singleSelection": true,
+              "options": [
+                {
+                  "id": "intent_learn",
+                  "title": "I want to learn how to animate",
+                  "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/MoZcySgktDwSIUO.png"
+                },
+                {
+                  "id": "intent_post",
+                  "title": "I want to post on social media",
+                  "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/JJNqvDu33f2zj6s.png"
+                },
+                {
+                  "id": "intent_seeking",
+                  "title": "Seeking a mobile tool for school or work",
+                  "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/BKaNfZCcvgqZzxY.png"
+                },
+                {
+                  "id": "intent_content",
+                  "title": "I want to check out cool animated content",
+                  "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/4XXkhNmIYp78fVW.png"
+                }
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "title": "What brings you to FlipaClip?",
+            "description": "Pick one.",
+            "type": 0,
+            "hideSkip": false,
+            "action": {
+              "nextAction": [
+                {
+                  "formId": "9"
+                }
+              ],
+              "skipAction": [
+                {
+                  "formId": "end"
+                }
+              ]
+            },
+            "content": {
+              "style": 0,
+              "singleSelection": true,
+              "options": [
+                {
+                  "id": "intent_learn",
+                  "title": "I want to learn how to animate",
+                  "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/MoZcySgktDwSIUO.png"
+                },
+                {
+                  "id": "intent_post",
+                  "title": "I want to post on social media",
+                  "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/JJNqvDu33f2zj6s.png"
+                },
+                {
+                  "id": "intent_seeking",
+                  "title": "Seeking a mobile tool for school or work",
+                  "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/BKaNfZCcvgqZzxY.png"
+                },
+                {
+                  "id": "intent_content",
+                  "title": "I want to check out cool animated content",
+                  "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/4XXkhNmIYp78fVW.png"
+                }
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "title": "What brings you to FlipaClip?",
+            "description": "Pick one.",
+            "type": 0,
+            "hideSkip": false,
+            "action": {
+              "nextAction": [
+                {
+                  "formId": "10"
+                }
+              ],
+              "skipAction": [
+                {
+                  "formId": "end"
+                }
+              ]
+            },
+            "content": {
+              "style": 0,
+              "singleSelection": true,
+              "options": [
+                {
+                  "id": "intent_learn",
+                  "title": "I want to learn how to animate",
+                  "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/MoZcySgktDwSIUO.png"
+                },
+                {
+                  "id": "intent_post",
+                  "title": "I want to post on social media",
+                  "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/JJNqvDu33f2zj6s.png"
+                },
+                {
+                  "id": "intent_seeking",
+                  "title": "Seeking a mobile tool for school or work",
+                  "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/BKaNfZCcvgqZzxY.png"
+                },
+                {
+                  "id": "intent_content",
+                  "title": "I want to check out cool animated content",
+                  "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/4XXkhNmIYp78fVW.png"
+                }
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "title": "What brings you to FlipaClip?",
+            "description": "Pick one.",
+            "type": 0,
+            "hideSkip": false,
+            "action": {
+              "nextAction": [
+                {
+                  "formId": "11"
+                }
+              ],
+              "skipAction": [
+                {
+                  "formId": "end"
+                }
+              ]
+            },
+            "content": {
+              "style": 0,
+              "singleSelection": true,
+              "options": [
+                {
+                  "id": "intent_learn",
+                  "title": "I want to learn how to animate",
+                  "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/MoZcySgktDwSIUO.png"
+                },
+                {
+                  "id": "intent_post",
+                  "title": "I want to post on social media",
+                  "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/JJNqvDu33f2zj6s.png"
+                },
+                {
+                  "id": "intent_seeking",
+                  "title": "Seeking a mobile tool for school or work",
+                  "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/BKaNfZCcvgqZzxY.png"
+                },
+                {
+                  "id": "intent_content",
+                  "title": "I want to check out cool animated content",
+                  "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/4XXkhNmIYp78fVW.png"
+                }
+              ]
+            }
+          },
+          {
+            "id": "11",
+            "title": "What brings you to FlipaClip?",
+            "description": "Pick one.",
+            "type": 0,
+            "hideSkip": false,
+            "action": {
+              "nextAction": [
+                {
+                  "formId": "12"
+                }
+              ],
+              "skipAction": [
+                {
+                  "formId": "end"
+                }
+              ]
+            },
+            "content": {
+              "style": 0,
+              "singleSelection": true,
+              "options": [
+                {
+                  "id": "intent_learn",
+                  "title": "I want to learn how to animate",
+                  "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/MoZcySgktDwSIUO.png"
+                },
+                {
+                  "id": "intent_post",
+                  "title": "I want to post on social media",
+                  "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/JJNqvDu33f2zj6s.png"
+                },
+                {
+                  "id": "intent_seeking",
+                  "title": "Seeking a mobile tool for school or work",
+                  "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/BKaNfZCcvgqZzxY.png"
+                },
+                {
+                  "id": "intent_content",
+                  "title": "I want to check out cool animated content",
+                  "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/4XXkhNmIYp78fVW.png"
+                }
+              ]
+            }
+          },
+          {
+            "id": "12",
+            "title": "What brings you to FlipaClip?",
+            "description": "Pick one.",
+            "type": 0,
+            "hideSkip": false,
+            "action": {
+              "nextAction": [
+                {
+                  "formId": "13"
+                }
+              ],
+              "skipAction": [
+                {
+                  "formId": "end"
+                }
+              ]
+            },
+            "content": {
+              "style": 0,
+              "singleSelection": true,
+              "options": [
+                {
+                  "id": "intent_learn",
+                  "title": "I want to learn how to animate",
+                  "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/MoZcySgktDwSIUO.png"
+                },
+                {
+                  "id": "intent_post",
+                  "title": "I want to post on social media",
+                  "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/JJNqvDu33f2zj6s.png"
+                },
+                {
+                  "id": "intent_seeking",
+                  "title": "Seeking a mobile tool for school or work",
+                  "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/BKaNfZCcvgqZzxY.png"
+                },
+                {
+                  "id": "intent_content",
+                  "title": "I want to check out cool animated content",
+                  "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/4XXkhNmIYp78fVW.png"
+                }
+              ]
+            }
+          },
+          {
+            "id": "13",
+            "title": "What brings you to FlipaClip?",
+            "description": "Pick one.",
+            "type": 0,
+            "hideSkip": false,
+            "action": {
+              "nextAction": [
+                {
+                  "formId": "end"
+                }
+              ],
+              "skipAction": [
+                {
+                  "formId": "end"
+                }
+              ]
+            },
+            "content": {
+              "style": 0,
+              "singleSelection": true,
+              "options": [
+                {
+                  "id": "intent_learn",
+                  "title": "I want to learn how to animate",
+                  "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/MoZcySgktDwSIUO.png"
+                },
+                {
+                  "id": "intent_post",
+                  "title": "I want to post on social media",
+                  "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/JJNqvDu33f2zj6s.png"
+                },
+                {
+                  "id": "intent_seeking",
+                  "title": "Seeking a mobile tool for school or work",
+                  "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/BKaNfZCcvgqZzxY.png"
+                },
+                {
+                  "id": "intent_content",
+                  "title": "I want to check out cool animated content",
+                  "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/4XXkhNmIYp78fVW.png"
+                }
+              ]
+            }
+          },
+          {
+            "id": "14",
+            "title": "What brings you to FlipaClip?",
+            "description": "Pick one.",
+            "type": 0,
+            "hideSkip": false,
+            "action": {
+              "nextAction": [
+                {
+                  "formId": "15"
+                }
+              ],
+              "skipAction": [
+                {
+                  "formId": "end"
+                }
+              ]
+            },
+            "content": {
+              "style": 0,
+              "singleSelection": true,
+              "options": [
+                {
+                  "id": "intent_learn",
+                  "title": "I want to learn how to animate",
+                  "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/MoZcySgktDwSIUO.png"
+                },
+                {
+                  "id": "intent_post",
+                  "title": "I want to post on social media",
+                  "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/JJNqvDu33f2zj6s.png"
+                },
+                {
+                  "id": "intent_seeking",
+                  "title": "Seeking a mobile tool for school or work",
+                  "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/BKaNfZCcvgqZzxY.png"
+                },
+                {
+                  "id": "intent_content",
+                  "title": "I want to check out cool animated content",
+                  "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/4XXkhNmIYp78fVW.png"
+                }
+              ]
+            }
+          },
+          {
+            "id": "15",
+            "title": "What brings you to FlipaClip?",
+            "description": "Pick one.",
+            "type": 0,
+            "hideSkip": false,
+            "action": {
+              "nextAction": [
+                {
+                  "formId": "end"
+                }
+              ],
+              "skipAction": [
+                {
+                  "formId": "end"
+                }
+              ]
+            },
+            "content": {
+              "style": 0,
+              "singleSelection": true,
+              "options": [
+                {
+                  "id": "intent_learn",
+                  "title": "I want to learn how to animate",
+                  "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/MoZcySgktDwSIUO.png"
+                },
+                {
+                  "id": "intent_post",
+                  "title": "I want to post on social media",
+                  "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/JJNqvDu33f2zj6s.png"
+                },
+                {
+                  "id": "intent_seeking",
+                  "title": "Seeking a mobile tool for school or work",
+                  "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/BKaNfZCcvgqZzxY.png"
+                },
+                {
+                  "id": "intent_content",
+                  "title": "I want to check out cool animated content",
+                  "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/4XXkhNmIYp78fVW.png"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "stepId": "push_permission_request",
+      "type": 103,
+      "showClose": false
+    }
+  ],
+  "flows": {
+    "default": [
+      {
+        "stepId": "push_permission_request",
+        "proceed": [
+          {
+            "stepId": "paywall"
+          }
+        ],
+        "dismiss": {
+          "stepId": "paywall"
+        }
+      },
+      {
+        "stepId": "paywall",
+        "proceed": [
+          {
+            "stepId": "survey"
+          }
+        ],
+        "dismiss": {
+          "stepId": "survey"
+        }
+      },
+      {
+        "stepId": "survey",
+        "proceed": [
+          {
+            "stepId": "path_selection"
+          }
+        ],
+        "dismiss": {
+          "stepId": "path_selection"
+        }
+      },
+      {
+        "stepId": "path_selection",
+        "proceed": [
+          {
+            "stepId": "finished"
+          }
+        ],
+        "dismiss": {
+          "stepId": "finished"
+        }
+      }
+    ]
+  }
+}
